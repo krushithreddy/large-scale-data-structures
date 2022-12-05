@@ -1,0 +1,10 @@
+sample : sample.o
+	
+	 g++ -o sample sample.o 
+
+
+sample.o : sample.cpp 
+	
+	 g++ -c sample.cpp
+
+clean:	rm sample sample.o
