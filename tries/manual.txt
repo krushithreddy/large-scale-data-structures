@@ -1,0 +1,16 @@
+compilation:
+	'make'
+
+execution:
+
+	Part A:
+		'./run SARS_COV2.fasta a 5000'
+		'./run SARS_COV2.fasta a 50000'
+		'./run SARS_COV2.fasta a 100000'
+		'./run SARS_COV2.fasta a 1000000'
+
+	Part B:
+		'./run SARS_COV2.fasta b 5000'
+		'./run SARS_COV2.fasta b 50000'
+		'./run SARS_COV2.fasta b 100000'
+		'./run SARS_COV2.fasta b 1000000'

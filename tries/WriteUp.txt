@@ -1,0 +1,12 @@
+
+A1:
+Number of nodes will increment in a quick way when the trie is vacant, until a particular point. The quantity of nodes will increment gradually as more 36mers are embedded. This example is noticed on the grounds that the trie doesn't create a nodes when already existing.
+
+A2:
+Number of matches for n inquiries id not exactly or equivalent to the quantity of embedded groupings up to a greatest breaking point. Say for instance, for 5000 additions, the matches can be 5000 assuming all embedded arrangements are different to one another. Since the inclusions are arbitrary, there is chance that similar additions are rehashed in those 5000 groupings, so number of matches will be under 5000. As the quantity of additions expands, the trie contains all the succession of the trie, and adding additional inclusions from a similar genome won't add additional hubs. So you number of matches when embedded 1M 36mrrs will be equivalent to by embedding 2M, etc
+
+B1:
+Number of nodes will increment in a quick way, creating more than in part A for same size as there is error decreasing chance of repeatition in nodes.
+
+B2:
+Due to mutation of inserted 36mers with 5% error, some queries inserted will not match resulting in lesser number of matches than that observed in part A
